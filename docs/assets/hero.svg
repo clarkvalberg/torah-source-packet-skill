@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="Bilingual Torah source packet layout">
+  <rect width="1200" height="520" fill="#f4efe7"/>
+  <rect x="170" y="58" width="860" height="404" rx="10" fill="#fffdf8" stroke="#d8cdbf" stroke-width="2"/>
+  <text x="230" y="120" fill="#7c4d2d" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="700" letter-spacing="2">SOURCE PACKET</text>
+  <text x="230" y="168" fill="#181512" font-family="Georgia,Times New Roman,serif" font-size="42">Tanya 34-35</text>
+  <text x="230" y="205" fill="#6f675d" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="22">Hebrew and English, ready for the shiur table.</text>
+  <line x1="230" y1="242" x2="970" y2="242" stroke="#ddd4c8" stroke-width="2"/>
+  <g font-family="Georgia,Times New Roman,serif" font-size="22" fill="#181512">
+    <text x="910" y="292" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">והנה זאת מודעת</text>
+    <text x="910" y="334" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">האבות הן הן המרכבה</text>
+    <text x="910" y="376" direction="rtl" unicode-bidi="bidi-override" text-anchor="end">לעשות לו משכן</text>
+    <text x="230" y="292">The Patriarchs were the chariot.</text>
+    <text x="230" y="334">A person makes a dwelling through Torah.</text>
+    <text x="230" y="376">The body is the wick; mitzvos are the oil.</text>
+  </g>
+  <g fill="#b9aa98">
+    <circle cx="600" cy="292" r="4"/>
+    <circle cx="600" cy="334" r="4"/>
+    <circle cx="600" cy="376" r="4"/>
+  </g>
+</svg>
