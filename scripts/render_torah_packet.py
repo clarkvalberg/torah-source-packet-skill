@@ -129,12 +129,12 @@ def render_html(title: str, subtitle: str, refs: list[str], sections: list[dict[
       margin: 0 auto;
       min-height: 100vh;
       background: var(--paper);
-      padding: 48px 54px 40px;
+      padding: 30px 38px 28px;
     }}
     header {{
       border-bottom: 1px solid var(--rule);
-      padding-bottom: 22px;
-      margin-bottom: 30px;
+      padding-bottom: 14px;
+      margin-bottom: 18px;
     }}
     .eyebrow {{
       color: var(--accent);
@@ -142,23 +142,23 @@ def render_html(title: str, subtitle: str, refs: list[str], sections: list[dict[
       letter-spacing: .08em;
       text-transform: uppercase;
       font-weight: 700;
-      margin-bottom: 10px;
+      margin-bottom: 6px;
     }}
     h1 {{
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 34px;
-      line-height: 1.12;
-      margin: 0 0 10px;
+      font-size: 28px;
+      line-height: 1.08;
+      margin: 0 0 6px;
       letter-spacing: 0;
     }}
     .subtitle {{
       color: var(--muted);
-      font-size: 16px;
+      font-size: 13px;
       max-width: 720px;
       margin: 0;
     }}
     .refs {{
-      margin-top: 18px;
+      margin-top: 10px;
       color: var(--muted);
       font-size: 12px;
     }}
@@ -167,15 +167,14 @@ def render_html(title: str, subtitle: str, refs: list[str], sections: list[dict[
       text-transform: uppercase;
       letter-spacing: .06em;
       color: var(--accent);
-      margin: 30px 0 14px;
+      margin: 20px 0 8px;
     }}
     .source-row {{
       display: grid;
       grid-template-columns: 42px minmax(0, 1fr) minmax(0, 1fr);
-      gap: 22px;
-      padding: 16px 0;
+      gap: 16px;
+      padding: 9px 0;
       border-top: 1px solid var(--rule);
-      break-inside: avoid;
     }}
     .source-meta {{
       color: var(--muted);
@@ -184,24 +183,24 @@ def render_html(title: str, subtitle: str, refs: list[str], sections: list[dict[
     }}
     .source-he, .source-en {{
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 17px;
-      line-height: 1.72;
+      font-size: 14px;
+      line-height: 1.48;
     }}
     .source-he {{
       text-align: right;
-      font-size: 19px;
+      font-size: 16px;
     }}
     footer {{
-      margin-top: 42px;
-      padding-top: 14px;
+      margin-top: 24px;
+      padding-top: 10px;
       border-top: 1px solid var(--rule);
       color: var(--muted);
       font-size: 11px;
     }}
     @media print {{
       body {{ background: white; }}
-      main {{ max-width: none; padding: 30px 34px; }}
-      @page {{ margin: 0.55in; }}
+      main {{ max-width: none; padding: 22px 26px; }}
+      @page {{ margin: 0.42in; }}
     }}
     @media (max-width: 720px) {{
       main {{ padding: 30px 22px; }}

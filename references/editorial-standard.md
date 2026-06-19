@@ -10,7 +10,7 @@ on an iPad, and restrained enough that the text stays primary.
 
 - Use a title page only for long packets. For one to four pages, start directly
   with the title and sources.
-- Use a narrow header:
+- Use a compact header:
   - title
   - subtitle or session label
   - source range
@@ -19,8 +19,9 @@ on an iPad, and restrained enough that the text stays primary.
   - English on the left
 - Collapse to one column for small screens.
 - Keep paragraph numbers visible but quiet.
-- Use strong page-break rules:
-  - avoid splitting a numbered source block when practical
+- Use print-efficient page-break rules:
+  - avoid excessive white space over preserving every source block intact
+  - allow long source blocks to split naturally across pages
   - allow natural page flow for long paragraphs
 
 ## Typography
@@ -28,6 +29,7 @@ on an iPad, and restrained enough that the text stays primary.
 - Use system serif for source text where it improves dignity and readability.
 - Use a clean system sans for metadata, labels, and footers.
 - Hebrew needs generous line height and right alignment.
+- Keep white space appropriate, not luxurious. These packets are meant to print.
 - Avoid decorative fonts.
 - Avoid tiny footnotes unless the source itself requires them.
 
