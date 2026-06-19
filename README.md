@@ -21,6 +21,8 @@ Use this skill when someone asks for:
 - a bilingual Hebrew/English packet from a Sefaria range
 - a cleaned-up version of an attached Sefaria PDF
 - a beautiful editorial PDF for a specific paragraph range
+- a Torah from the Table Tanya episode that needs its discussed perakim attached
+  as a source-packet PDF
 
 ## Files
 
@@ -68,6 +70,10 @@ python3 scripts/render_torah_packet.py \
 4. Render HTML first.
 5. Export PDF from the same HTML.
 6. Inspect the PDF before sending it.
+
+For Torah from the Table Tanya shiurim, attach the rendered PDF to the episode
+page beside the audio and transcript. The ingestion is incomplete until the
+source packet is linked or explicitly blocked.
 
 ## Install
 

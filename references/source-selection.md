@@ -28,3 +28,15 @@
 - Do not silently rewrite translations.
 - If the output includes commentary, mark it as commentary.
 - Keep source text separate from summary, prompts, and teaching notes.
+
+## Tanya Shiur Ingestion
+
+When publishing a Torah from the Table Tanya shiur, source selection is part of
+the ingest, not an optional add-on.
+
+- Infer the perakim from Fireflies titles such as `Tanya 34-35`, attached
+  Sefaria PDFs, transcript opening lines, or Clark's explicit range.
+- Render one packet for the full discussed span.
+- Attach that PDF to the episode page.
+- If the range cannot be recovered confidently, publish the episode only with a
+  visible open task to add the source packet once the range is known.
