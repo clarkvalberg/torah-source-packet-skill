@@ -111,15 +111,15 @@ def render_html(title: str, subtitle: str, refs: list[str], sections: list[dict[
   <style>
     :root {{
       --ink: #181512;
-      --muted: #6f675d;
-      --rule: #ddd4c8;
-      --paper: #fffdf8;
-      --accent: #7c4d2d;
+      --muted: #666666;
+      --rule: #d9d9d9;
+      --paper: #ffffff;
+      --accent: #202020;
     }}
     * {{ box-sizing: border-box; }}
     body {{
       margin: 0;
-      background: #f3eee6;
+      background: #ffffff;
       color: var(--ink);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.5;

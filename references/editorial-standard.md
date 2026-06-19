@@ -40,12 +40,10 @@ on an iPad, and restrained enough that the text stays primary.
   - what span
   - what the reader should be ready to notice
 
-## Visual Style
-
-- White or very light warm background.
-- Black or near-black text.
-- One muted accent color at most.
-- Thin rules, not heavy boxes.
+- Pure white background for screen and print.
+- Black or near-black text, with one quiet gray for secondary metadata.
+- No warm paper fill, tinted page background, or accent color by default.
+- Thin gray rules, not heavy boxes.
 - No ornamental borders.
 - No stock religious imagery.
 
